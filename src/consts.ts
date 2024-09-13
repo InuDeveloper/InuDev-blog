@@ -1,15 +1,15 @@
-import type { Site, Page, Links, Socials } from "@types"
+import type { Links, Page, Site, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Mark Horn",
+  TITLE: "InuDev🐾",
+  DESCRIPTION: "Welcome to InuDev's Astro Sphere",
+  AUTHOR: "Mark Horn, InuDeveloper",
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
+  TITLE: "Works",
   DESCRIPTION: "Places I have worked.",
 }
 
