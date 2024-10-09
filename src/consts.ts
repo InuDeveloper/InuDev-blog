@@ -3,8 +3,8 @@ import type { Links, Page, Site, Socials } from "@types"
 // Global
 export const SITE: Site = {
   TITLE: "InuDev🐾",
-  DESCRIPTION: "Welcome to InuDev's Astro Sphere",
-  AUTHOR: "Mark Horn, InuDeveloper",
+  DESCRIPTION: "Welcome to InuDev's blog",
+  AUTHOR: "InuDeveloper / Carlos David Jorge",
 }
 
 // Work Page
@@ -56,26 +56,26 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "daviddevlife@gmail.com",
+    HREF: "mailto:daviddevlife@gmail.com",
   },
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "InuDev🐾",
+    HREF: "https://github.com/InuDeveloper/InuDev-blog"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
     TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
+    HREF: "https://www.linkedin.com/in/shibadev-85b885230/",
   },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
-  },
+  // { 
+  //   NAME: "Twitter",
+  //   ICON: "twitter-x",
+  //   TEXT: "markhorn_dev",
+  //   HREF: "https://twitter.com/markhorn_dev",
+  // },
 ]
 
