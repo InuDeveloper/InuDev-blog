@@ -4,6 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro"
 import ArrowCard from "@components/ArrowCard"
 import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
+import { Show } from "solid-js"
 
 import Image from "astro/components/Image.astro"
 
@@ -39,6 +40,10 @@ const stack = [
     href: "https://tailwindcss.com" 
   },
 ]
+
+const windowSize = () => {
+  
+}
 ---
 
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
@@ -47,7 +52,8 @@ const stack = [
   <!-- HERO -->
   <section class="relative h-screen w-full">
     <!-- Background image -->
-    <Image alt="Background-image" src="/MainWallpaperResized.png" loading="eager" width={1920} height={1440} class="animate rounded-md fixed inset-0 bg-center bg-cover flex items-center justify-center" />
+    <!-- <Image alt="Background-image" src="/MainWallpaperResized.png" loading="eager" width={1920} height={1440} class="animate md:fixed inset-0 bg-center bg-cover flex items-center justify-center" /> -->
+    <div class="animate fixed inset-0 bg-center bg-cover flex items-center justify-center" style="background: url(/MainWallpaperResized.png);"></div>
     <!-- Menu buttons and content -->
     <div class="animate absolute h-full w-full flex backdrop-blur-sm backdrop-brightness-50 items-center justify-center">
       <div class='relative w-full h-full flex items-center justify-center'>
@@ -94,7 +100,7 @@ const stack = [
         <div class="space-y-4">
           <div class="flex justify-between">
             <p class="font-semibold text-black dark:text-white">
-              Recent Projects
+              Recent posts
             </p>
             <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
               <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
