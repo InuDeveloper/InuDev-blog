@@ -42,40 +42,42 @@ const stack = [
 ---
 
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
-
-  <!-- Light Mode: Particles -->
+<!-- 
+ Light Mode: Particles
   <div class='absolute inset-0 block dark:hidden'>
     <div id='particles1' class='fixed inset-0'></div>
     <div id='particles2' class='fixed inset-0'></div>
     <div id='particles3' class='fixed inset-0'></div>
   </div>
 
-  <!-- Dark Theme: Stars -->
+Dark Theme: Stars 
   <div class='absolute inset-0 bg-black hidden dark:block'>
     <div id='stars1' class='fixed inset-0'></div>
     <div id='stars2' class='fixed inset-0'></div>
     <div id='stars3' class='fixed inset-0'></div>
   </div>
 
-  <!-- Dark Theme: Twinkling Stars / Metors -->
+ Dark Theme: Twinkling Stars / Metors
   <div id="galaxy" class="fixed inset-0">
     <div class="hidden dark:block">
       <TwinklingStars/>
       <MeteorShower/>
     </div>
-  </div>
+  </div> 
+-->
 
-  <script is:inline src="/js/bg.js"></script>
+  <!-- <script is:inline src="/js/bg.js"></script> -->
   
   <!-- HERO -->
   <section class="relative h-screen w-full">
-    <div id="planetcont" class='animate absolute inset-0 top-1/4 overflow-hidden'>
+    <div class="rounded-md fixed inset-0 bg-center bg-cover w-full h-full flex items-center justify-center" style="background: url(/MainWallpaperResized.png);"></div>
+    <!-- <div id="planetcont" class='animate absolute inset-0 top-1/4 overflow-hidden'>
       <div id="crescent" class='absolute top-0 left-1/2 -translate-x-1/2 w-[250vw] min-h-[100vh] aspect-square rounded-full p-[1px] bg-gradient-to-b from-black/25 dark:from-white/75 from-0% to-transparent to-5%'>
         <div id="planet" class='w-full h-full bg-white dark:bg-black rounded-full p-[1px] overflow-hidden flex justify-center'>
           <div id="blur" class='w-full h-20 rounded-full bg-neutral-900/25 dark:bg-white/25 blur-3xl'/>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="animate absolute h-full w-full flex items-center justify-center">
       <div class='relative w-full h-full flex items-center justify-center'>
         <div class='p-5 text-center'>
