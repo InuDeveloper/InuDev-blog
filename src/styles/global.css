@@ -10,7 +10,7 @@
     font-style: normal;
     font-display: swap;
   }
-  
+
   @font-face {
     font-family: "Atkinson";
     src: url("/fonts/atkinson-bold.woff") format("woff");
@@ -25,7 +25,7 @@ html {
   color-scheme: light;
   background-color: white;
   font-family: "Atkinson", sans-serif;
-  
+
 }
 
 html.dark {
@@ -36,7 +36,7 @@ html.dark {
 html,
 body {
   @apply h-full w-full antialiased;
-  @apply bg-white dark:bg-black;
+  @apply bg-white dark:bg-gray-800;
   @apply text-black/75 dark:text-white/75;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 main {
-  @apply flex flex-col flex-1 bg-white dark:bg-black;
+  @apply flex flex-col flex-1 bg-white dark:bg-gray-800;
 }
 
 header {
@@ -75,16 +75,6 @@ article {
   @apply transition-all duration-300 ease-in-out;
 }
 
-/** Light theme particles on home page */
-@keyframes animateParticle {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-2000px);
-  }
-}
-
 /** styles for public /animation.js */
 .animate {
   opacity: 0;
@@ -108,12 +98,14 @@ article img {
  * TWINKLE STARS
  */
 
- #twinkle-star.template {
-  @apply absolute -left-full; /* hide offscreen */
+#twinkle-star.template {
+  @apply absolute -left-full;
+  /* hide offscreen */
 }
 
 #twinkle-star.twinkle {
-  @apply animate-twinkle; /* defined in tailwind.config */
+  @apply animate-twinkle;
+  /* defined in tailwind.config */
 }
 
 
@@ -122,13 +114,15 @@ article img {
  */
 
 #meteors .shower {
-  @apply absolute inset-0 top-0;;
+  @apply absolute inset-0 top-0;
+  ;
   @apply left-1/2 -translate-x-1/2;
   @apply w-screen aspect-square;
 }
 
 #meteors .meteor {
-  @apply animate-meteor; /* defined in tailwind.config */
+  @apply animate-meteor;
+  /* defined in tailwind.config */
   @apply absolute top-1/2 left-1/2 w-px h-[75vh];
   @apply bg-gradient-to-b from-white to-transparent;
 }
