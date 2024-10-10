@@ -4,8 +4,8 @@ import PageLayout from "@layouts/PageLayout.astro"
 import ArrowCard from "@components/ArrowCard"
 import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
-import TwinklingStars from "@components/TwinklingStars.astro"
-import MeteorShower from "@components/MeteorShower.astro"
+
+import Image from "astro/components/Image.astro"
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
@@ -47,7 +47,7 @@ const stack = [
   <!-- HERO -->
   <section class="relative h-screen w-full">
     <!-- Background image -->
-    <div class="animate rounded-md fixed inset-0 bg-center bg-cover w-full h-full flex items-center justify-center" style="background: url(/MainWallpaperResized.png);" />
+    <Image alt="Background-image" src="/MainWallpaperResized.png" loading="eager" width={1920} height={1440} class="animate rounded-md fixed inset-0 bg-center bg-cover flex items-center justify-center" />
     <!-- Menu buttons and content -->
     <div class="animate absolute h-full w-full flex backdrop-blur-sm backdrop-brightness-50 items-center justify-center">
       <div class='relative w-full h-full flex items-center justify-center'>
