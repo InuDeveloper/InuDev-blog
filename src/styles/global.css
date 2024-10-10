@@ -54,7 +54,7 @@ header {
 }
 
 header:not(.scrolled) {
-  @apply bg-transparent border-transparent text-white;
+  @apply bg-transparent border-transparent;
 }
 
 header.scrolled {
