@@ -12,17 +12,8 @@ tags:
 demoUrl: https://voltagene-blog.vercel.app
 repoUrl: https://github.com/InuDeveloper/voltagene-blog
 ---
-
 Hi, here David. I am working on a landing page for a business called Voltagene SRL
 
-Voltagene SRL website is still under heavy development and the repository is privatized.
+Voltagene SRL website is still under heavy development and the repository is privatized. Voltagene SRL is a solar panel installation business in Dominican Republic, their website is made with ASTRO.js, mostly JavaScript but also with TypeScript and the framework for the styling is Tailwind CSS.
 
-## Stages
-
-### Template selection and design
-
-Voltagene SRL is following a minimalistic and simple design. Some components has been taken from public templates like ASTRO-SPHERE
-
-### Configuration files
-
-After finishing with the design configuration and tailwind CSS installation, I move on to the configuration files like `consts.ts`
+Also, for optimization and making the website more slappy, I decided to add SolidJs.
