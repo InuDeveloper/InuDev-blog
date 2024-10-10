@@ -36,7 +36,7 @@ html.dark {
 html,
 body {
   @apply h-full w-full antialiased;
-  @apply bg-white dark:bg-gray-400;
+  @apply bg-white dark:bg-gray-800;
   @apply text-black/75 dark:text-white/75;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 main {
-  @apply flex flex-col flex-1 bg-white dark:bg-black;
+  @apply flex flex-col flex-1 bg-white dark:bg-gray-800;
 }
 
 header {
@@ -54,7 +54,7 @@ header {
 }
 
 header:not(.scrolled) {
-  @apply bg-transparent border-transparent;
+  @apply bg-transparent border-transparent text-white;
 }
 
 header.scrolled {
@@ -73,17 +73,6 @@ article {
 
 .blend {
   @apply transition-all duration-300 ease-in-out;
-}
-
-/** Light theme particles on home page */
-@keyframes animateParticle {
-  from {
-    transform: translateY(0px);
-  }
-
-  to {
-    transform: translateY(-2000px);
-  }
 }
 
 /** styles for public /animation.js */

@@ -8,3 +8,6 @@ function onScroll() {
 }
 
 document.addEventListener("scroll", onScroll)
+
+
+// I want to detect if we are on the page "home", if not, then a property is deleted
