@@ -1,3 +1,5 @@
+// Types used to define the consts of the page
+
 export type Page = {
   TITLE: string
   DESCRIPTION: string
