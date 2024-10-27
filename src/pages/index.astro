@@ -4,9 +4,8 @@ import PageLayout from "@layouts/PageLayout.astro"
 import ArrowCard from "@components/ArrowCard"
 import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
-import { Show } from "solid-js"
 
-import Image from "astro/components/Image.astro"
+// import Image from "astro/components/Image.astro"
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
@@ -53,18 +52,18 @@ const windowSize = () => {
   <section class="relative h-screen w-full">
     <!-- Background image -->
     <!-- <Image alt="Background-image" src="/MainWallpaperResized.png" loading="eager" width={1920} height={1440} class="animate md:fixed inset-0 bg-center bg-cover flex items-center justify-center" /> -->
-    <div class="animate fixed inset-0 bg-center bg-cover flex items-center justify-center" style="background: url(/MainWallpaperResized.png);"></div>
+    <div class="fixed inset-0 bg-center bg-cover flex items-center justify-center" style="background: url(/MainWallpaperResized.png);"></div>
     <!-- Menu buttons and content -->
-    <div class="animate absolute h-full w-full flex backdrop-blur-sm backdrop-brightness-50 items-center justify-center">
+    <div class="absolute h-full w-full flex backdrop-blur-sm backdrop-brightness-50 items-center justify-center">
       <div class='relative w-full h-full flex items-center justify-center'>
         <div class='p-5 text-center'>
-          <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
+          <p class='animate text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
             Hello, I am David Jorge
           </p>
-          <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-white'>
+          <p class='animate text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-white'>
             Indie software developer
           </p>
-          <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
+          <p class='animate text-sm md:text-base lg:text-lg opacity-75'>
             Always learning new methods to make life easier
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
@@ -95,6 +94,7 @@ const windowSize = () => {
         </article>
       </section>
 
+      <!-- TODO: Make them spread like a grid -->
       <!-- Blog Preview Section -->
       <section class="animate">
         <div class="space-y-4">
@@ -104,7 +104,7 @@ const windowSize = () => {
             </p>
             <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
               <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All projects
+                All posts
               </span>
             </a>
           </div>
