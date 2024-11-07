@@ -1,8 +1,6 @@
 ![Astro Sphere Lighthouse Score](_astrosphere.jpg)
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
-
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+Using ASTRO Sphere template for the design.
 
 ## 🚀 Deploy your own
 
@@ -26,12 +24,15 @@ It is primarily Astro, Tailwind and Typescript, with a very small amount of Soli
 - ✅ Searchable content (posts and projects)
 
 ## 💯 Lighthouse score
+
 ![Astro Sphere Lighthouse Score](_lighthouse.png)
 
 ## 🕊️ Lightweight
+
 All pages under 100kb (including fonts)
 
 ## ⚡︎ Fast
+
 Rendered in ~40ms on localhost
 
 ## 📄 Configuration
@@ -61,6 +62,7 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 ## 🗺️ Roadmap
 
 A few features I plan to implement
+
 - ⬜ Code Blocks - copy to clipboard
 - ⬜ Article Pages - Table of Contents
 - ⬜ Article Pages - Share on social media
@@ -69,11 +71,9 @@ A few features I plan to implement
 
 Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leerob.io/) and [Hayden Bleasel](https://www.haydenbleasel.com/)
 
-
 ## 🏛️ License
 
 MIT
-
 
 # 1.0.1 Update
 
@@ -86,4 +86,3 @@ Added slightly more particle density in both light and dark mode.
 Added subtle dark mode star and meteor animations.
 
 Removed eslint config
-
