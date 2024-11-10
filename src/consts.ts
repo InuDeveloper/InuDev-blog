@@ -68,14 +68,8 @@ export const SOCIALS: Socials = [
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "markhorn-dev",
+    TEXT: "ShibaDev",
     HREF: "https://www.linkedin.com/in/shibadev-85b885230/",
   },
-  // { 
-  //   NAME: "Twitter",
-  //   ICON: "twitter-x",
-  //   TEXT: "markhorn_dev",
-  //   HREF: "https://twitter.com/markhorn_dev",
-  // },
 ]
 
