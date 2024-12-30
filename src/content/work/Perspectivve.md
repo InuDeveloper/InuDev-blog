@@ -13,7 +13,7 @@ Personally, Perspectivve web development department is very flexible and need to
 
 My main role in Perspectivve is Web development and UI/UX designer. Honestly, my role as a designer is not that present in the job since I directly code the desire design and tested it out locally and then builded the production.
 
-## Used Languages
+## Used Languages & Frameworks
 
 - **JavaScript Experience**:
    Learnt amateur JavaScript
@@ -21,10 +21,7 @@ My main role in Perspectivve is Web development and UI/UX designer. Honestly, my
 - **TypeScript Experience**:
    How to add types, modify and configure the projects.
    How to use it in Front-End.
-
-## Frameworks
-
-- Next.JS and Tailwind CSS and others UI libraries.
+- **Next.JS** and **Tailwind CSS** and others UI libraries.
 
 ## Tools used
 - **Visual Studio code**
