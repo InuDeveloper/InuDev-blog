@@ -5,26 +5,28 @@ dateStart: "10/04/2023"
 dateEnd: "Present"
 ---
 
-# Personal experience
+Hi, here David. here I'm going to explain my experience in Perspectivve and what is my role in it.
 
-Hi, here David. here I'm going to explain my experience in Perspectivve and what is it.
+# Personal experience in the company & role
 
-## What is Perspectivve
+Personally, Perspectivve web development department is very flexible and need to adapt the needs of the customer. If the customer want a quick landsite, we use ASTRO.js, if the customer want a e-commerce, then we use Next.JS.
 
-Perspectivve is a startup in the Dominican Republic that provides web development services to other companies. It is a virtual business so it operates fully remotely. The business is pretty flexible with its employees but requires them to present the work on time.
+My main role in Perspectivve is Web development and UI/UX designer. Honestly, my role as a designer is not that present in the job since I directly code the desire design and tested it out locally and then builded the production.
 
-## My experience
+## Used Languages
 
-### Languages
-
-- JavaScript Experience
+- **JavaScript Experience**:
    Learnt amateur JavaScript
    How to configure JavaScript and other frameworks.
-- TypeScript Experience
+- **TypeScript Experience**:
    How to add types, modify and configure the projects.
    How to use it in Front-End.
 
-### Frameworks
+## Frameworks
 
-- Next.JS and Tailwind CSS
-   How to start a project with Next.JS
+- Next.JS and Tailwind CSS and others UI libraries.
+
+## Tools used
+- **Visual Studio code**
+- **Figma**
+- **Canva**
